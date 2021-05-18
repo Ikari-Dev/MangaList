@@ -1,7 +1,7 @@
 let list = []
-list.push(new Manga("One piece", "One Piece est une série de mangas shōnen créée par Eiichirō Oda.","../asset/op.jpg","https://fr.wikipedia.org/wiki/One_Piece"))
-list.push(new Manga("Bleach", "Bleach (BLEACH, ブリーチ, Burīchi) est un shōnen manga écrit et illustré par Tite Kubo.","../asset/bleach.jpg","https://fr.wikipedia.org/wiki/Bleach_(manga)"))
-list.push(new Manga("Naruto", "Naruto (ナルト) est un shōnen manga écrit et dessiné par Masashi Kishimoto", "../asset/naruto.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
+list.push(new Manga("One piece", "One Piece est une série de mangas shōnen créée par Eiichirō Oda.","./asset/op.jpg","https://fr.wikipedia.org/wiki/One_Piece"))
+list.push(new Manga("Bleach", "Bleach (BLEACH, ブリーチ, Burīchi) est un shōnen manga écrit et illustré par Tite Kubo.","./asset/bleach.jpg","https://fr.wikipedia.org/wiki/Bleach_(manga)"))
+list.push(new Manga("Naruto", "Naruto (ナルト) est un shōnen manga écrit et dessiné par Masashi Kishimoto", "./asset/naruto.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
 list.push(new Manga("Red eyes Sword", "Red Eyes Sword: Akame ga Kill! (アカメが斬る!, Akame ga Kiru!?, littéralement Red Eye Killer ou Akame Slashes!) est une série de mangas écrite par Takahiro et illustrée par Tetsuya Tashiro", "../asset/akame.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
 list.push(new Manga("Red eyes Sword zero", "Red Eyes Sword: Akame ga Kill! zero (アカメが斬る!, Akame ga Kiru!?, littéralement Red Eye Killer ou Akame Slashes!) est une série de mangas écrite par Takahiro et illustrée par Tetsuya Tashiro", "../asset/akamezero.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
 list.push(new Manga("Blame", "BLAME! (ブラム!, Buramu!?) est une série de seinen manga cyberpunk écrit et dessiné par Tsutomu Nihei", "../asset/blame.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
