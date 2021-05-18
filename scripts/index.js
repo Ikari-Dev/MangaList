@@ -65,6 +65,7 @@ list.push(new Manga("Last Pretender", "Last pretender est un manga de Shunji EtÃ
 
 
 
+
 function itemCreate(name = "Manga", desc = "Manga dscription", imgurl = "../asset/default.jpg", link = "#"){
 
     let card = document.createElement("div")
