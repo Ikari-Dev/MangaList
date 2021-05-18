@@ -28,7 +28,7 @@ list.push(new Manga("Goblin Slayer", "Goblin Slayer (ゴブリンスレイヤー
 list.push(new Manga("My Hero Academia", "My Hero Academia (僕のヒーローアカデミア, Boku no Hīrō Akademia?) est un shōnen manga écrit et dessiné par Kōhei Horikoshi", "../asset/mha.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
 list.push(new Manga("Green World Z", "Green World Z est un manga de Yûsuke Ôsawa", "../asset/GWZ.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
 list.push(new Manga("NOiSE", "NOiSE (ノイズ, Noizu?) est un manga créé par Tsutomu Nihei", "../asset/noise.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
-list.push(new Manga("Abara", "Abara (アバラ?) est un manga en 2 volumes de Tsutomu Nihei", "../asset/abara.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
+list.push(new Manga("Abara", "Abara (アバラ?) est un manga en 2 volumes de Tsutomu Nihei", "../asset/abara.png", "https://fr.wikipedia.org/wiki/Naruto"))
 list.push(new Manga("Aposimz", "Aposimz (stylisé comme APOSIMZ) (japonais: 人形 の 国, Hepburn: Ningyō no Kuni) est une série de mangas japonais écrite et illustrée par Tsutomu Nihei", "../asset/aposimz.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
 list.push(new Manga("Fairy Tail", "Fairy Tail (フェアリーテイル, Fearī Teiru?, littéralement « Queue de fée ») est un shōnen manga écrit et dessiné par Hiro Mashima", "../asset/FT.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
 list.push(new Manga("Eden Zero", "Edens Zero (エデンズゼロ, Edenzu Zero?) est un shōnen manga écrit et dessiné par Hiro Mashima", "../asset/edenzero.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
