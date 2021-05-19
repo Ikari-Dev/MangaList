@@ -84,6 +84,7 @@ list.push(new Manga("Darker than Black", "Darker than Black (Darker than BLACK -
 list.push(new Manga("Blood-C", "Blood-C est un manga adapté par Ranmaru Kotone", "./asset/bloodc.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
 list.push(new Manga("Blood-C: Demonic Moon Light", "Blood-C est un manga de Ryo Haduki", "./asset/bloodcd.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
 list.push(new Manga("Dolly Kill Kill", "Dolly Kill Kill (ド リ ィ ❤ キ ル キ ル) est une série manga du mangaka Kengo Kurando, illustrée par Yūsuke Nomura", "./asset/dol.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
+list.push(new Manga("The new Gate", "THE NEW GATE (ザ ・ ニ ュ ー ・ ゲ ー ​​ト) est une adaptation manga des romans originaux. Il est écrit par Shinogi Kazanami et illustré par Yoshiyuki Miwa.", "./asset/thenewgate.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
 
 
 
