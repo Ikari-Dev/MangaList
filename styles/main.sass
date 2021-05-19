@@ -69,6 +69,9 @@ html
   letter-spacing: 0.13em
   color: #333
 
+.effect01:hover
+  color: #333
+
 
 
 .effect01:after 
@@ -105,7 +108,7 @@ html
 .card
     display: flex
     flex-direction: column 
-    justify-content: center
+    justify-content: space-between
     max-width: 20%
     width: 18rem
     margin: 5px
@@ -116,7 +119,27 @@ html
         padding: 1rem
 
     &:hover
-        transform: scale(1.1)
+        transform: scale(1.05)
+
+    img 
+      object-fit: fill
+
+    .genre
+      bottom: 0
+      font-weight: bold
+
+
+    .divlink
+      display: flex
+      justify-content: center
+
+      .btn-link
+        text-decoration: none
+        text-align: center
+        justify-content: center
+        padding: 7px
+        width: 100%
+        text-transform: uppercase
 
 @media screen and ( max-width: 1000px )
     .card 
