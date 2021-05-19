@@ -62,6 +62,17 @@ list.push(new Manga("A Silent Voice", "A Silent Voice (聲の形, Koe no katachi
 list.push(new Manga("Made in Abyss", "Made in Abyss (メイドインアビス, Meido in Abisu?) est un manga écrit et dessiné par Akihito Tsukushi", "./asset/madein.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
 list.push(new Manga("Akira", "Akira (アキラ?) est une série de seinen manga de science-fiction écrite et dessinée par Katsuhiro Ōtomo", "./asset/akira.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
 list.push(new Manga("Last Pretender", "Last pretender est un manga de Shunji Etô et dessiné par Yoshiyuki Miwa", "./asset/lastP.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
+list.push(new Manga("One punch man", "One-Punch Man (ワンパンマン, Wanpanman?) est un manga en ligne écrit et dessiné par ONE", "./asset/OPM.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
+list.push(new Manga("Demon Slayer", "Demon Slayer (litt. « Pourfendeur de démon »), connue au Japon sous le nom Kimetsu no yaiba (鬼き滅めつの刃やいば?, litt. « La Lame tueuse de démons »), est une série de manga écrite et dessinée par Koyoharu Gotōgea", "./asset/kimetsu.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
+list.push(new Manga("Twin star exorcists", "Twin Star Exorcists (双星の陰陽師, Sōsei no Onmyōji?) est un shōnen manga écrit et dessiné par Yoshiaki Sukeno", "./asset/tse.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
+list.push(new Manga("Blue exorcists", "Blue Exorcist (青の祓魔師エクソシスト, Ao no Ekusoshisuto?), connu également sous le nom Ao no Exorcist, est un shōnen manga écrit et illustré par Kazue Kato", "./asset/blueE.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
+list.push(new Manga("Black Torch", "Black Torch (ブラックトーチ, Burakkutōchi?) est un shōnen manga de Tsuyoshi Takaki", "./asset/blacktorch.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
+list.push(new Manga("Arago", "Arago - Police Investigator (AR∀GO ～ロンドン市警特殊犯罪捜査官～, Arago - London Shikei Tokushu Hanzai Sôsakan?), typographié AR∀GO, est un manga fantastico-policier écrit et dessiné par Takahiro Arai", "./asset/arago.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
+list.push(new Manga("Origin", "Origin (オ リ ジ ン Orijin?) Un manga écrit et illustré par Boichi", "./asset/origin.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
+list.push(new Manga("Seraph of the End", "Seraph of the End (終わりのセラフ, Owari no Serafu?) est un manga dark fantasy créé par Takaya Kagami et illustré par Yamato Yamamoto avec les storyboards de Daisuke Furuya", "./asset/Sofend.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
+list.push(new Manga("Hell's paradise", "Hell's Paradise: Jigokuraku (japonais: 地獄 楽, Hepburn: Jigokuraku) est une série de mangas japonais écrite et illustrée par Yuji Kak", "./asset/hellP.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
+list.push(new Manga("Dr Stone", "Dr. Stone (stylisé comme Dr.STONE) est une série de mangas japonais écrite par Riichiro Inagaki et illustrée par l'artiste sud-coréen Boichi", "./asset/drstone.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
+list.push(new Manga("Neon genesis: Evangelion", "Adaptation en manga a été réalisée par le co-créateur de la série Yoshiyuki Sadamoto", "./asset/eva.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
 
 
 
