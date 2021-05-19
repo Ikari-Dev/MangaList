@@ -73,6 +73,17 @@ list.push(new Manga("Seraph of the End", "Seraph of the End (終わりのセラ�
 list.push(new Manga("Hell's paradise", "Hell's Paradise: Jigokuraku (japonais: 地獄 楽, Hepburn: Jigokuraku) est une série de mangas japonais écrite et illustrée par Yuji Kak", "./asset/hellP.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
 list.push(new Manga("Dr Stone", "Dr. Stone (stylisé comme Dr.STONE) est une série de mangas japonais écrite par Riichiro Inagaki et illustrée par l'artiste sud-coréen Boichi", "./asset/drstone.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
 list.push(new Manga("Neon genesis: Evangelion", "Adaptation en manga a été réalisée par le co-créateur de la série Yoshiyuki Sadamoto", "./asset/eva.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
+list.push(new Manga("Boruto", "Boruto: Naruto Next Generations (BORUTO-ボルト- -NARUTO　NEXT　GENERATIONS-, Boruto: Naruto Nekusuto Jenerēshonzu?) est un manga dérivé faisant suite au manga Naruto, par Ukyō Kodachi et dessiné par Mikio Ikemoto", "./asset/boruto.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
+list.push(new Manga("All you need is kill", "All You Need Is Kill (オール ユー ニード イズ キル?) est un light novel japonais de Hiroshi Sakurazaka illustré par Yoshitoshi ABe", "./asset/allY.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
+list.push(new Manga("Claymore", "Claymore (クレイモア, Kureimoa) est un manga de dark fantasy écrit et illustré par Norihiro Yagi", "./asset/claymore.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
+list.push(new Manga("Code Geass", "Adaptations en manga par Kadokawa Shoten", "./asset/ode.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
+list.push(new Manga("Drifters", "Drifters (ドリフターズ, Dorifutaazu?) est un seinen manga de fantasie de Kōta Hirano", "./asset/drifter.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
+list.push(new Manga("Pochi & kuro", "Pochi Kuro / ポチクロ manga dessiné par Matsumoto Naoya", "./asset/pochi.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
+list.push(new Manga("Assassination Classroom", "Assassination Classroom (暗殺教室, Ansatsu kyōshitsu?, litt. La Classe d'assassinat) est un manga écrit et dessiné par Yūsei Matsui", "./asset/ac.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
+list.push(new Manga("Darker than Black", "Darker than Black (Darker than BLACK -黒の契約者-, Dākā zan Burakku: Kuro no Keiyakusha?) est un manga de Tensai Okamura et Nokiya", "./asset/darker.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
+list.push(new Manga("Blood-C", "Blood-C est un manga adapté par Ranmaru Kotone", "./asset/bloodc.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
+list.push(new Manga("Blood-C: Demonic Moon Light", "Blood-C est un manga de Ryo Haduki", "./asset/bloodcd.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
+list.push(new Manga("Dolly Kill Kill", "Dolly Kill Kill (ド リ ィ ❤ キ ル キ ル) est une série manga du mangaka Kengo Kurando, illustrée par Yūsuke Nomura", "./asset/dol.jpg", "https://fr.wikipedia.org/wiki/Naruto"))
 
 
 
