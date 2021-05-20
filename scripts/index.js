@@ -5,7 +5,7 @@ list.push(new Manga("Naruto", "Naruto (ナルト) est un shōnen manga écrit et
 list.push(new Manga("Red eyes Sword", "Red Eyes Sword: Akame ga Kill! (アカメが斬る!, Akame ga Kiru!?, littéralement Red Eye Killer ou Akame Slashes!) est une série de mangas écrite par Takahiro et illustrée par Tetsuya Tashiro.", "./asset/akame.jpg", "https://www.nautiljon.com/mangas/red+eyes+sword+-+akame+ga+kill+!.html", "Dark Fantasy - Drame"))
 list.push(new Manga("Red eyes Sword zero", "Red Eyes Sword: Akame ga Kill! zero (アカメが斬る!, Akame ga Kiru!?, littéralement Red Eye Killer ou Akame Slashes!) est une série de mangas écrite par Takahiro et illustrée par Tetsuya Tashiro.", "./asset/akamezero.jpg", "https://www.nautiljon.com/mangas/red+eyes+sword+-+akame+ga+kill+!+zero.html", "Dark Fantasy - Drame"))
 list.push(new Manga("Blame", "BLAME! (ブラム!, Buramu!?) est une série de seinen manga cyberpunk écrit et dessiné par Tsutomu Nihei.", "./asset/blame.jpg", "https://www.nautiljon.com/mangas/blame!.html", "Dark Science-Fiction - Cyberpunk - Guerre - Mecha - Cyborg"))
-list.push(new Manga("Attaque des titans", "Naruto (ナルト) est un shōnen manga écrit et dessiné par Masashi Kishimoto.", "./asset/snk.jpg", "https://www.nautiljon.com/mangas/l-attaque+des+titans.html", "Mystere - Action - Gore - Guerre"))
+list.push(new Manga("Attaque des titans", "Shingeki no Kyojin (進撃の巨人) est un manga écrit et dessiné par Isayama Hajime.", "./asset/snk.jpg", "https://www.nautiljon.com/mangas/l-attaque+des+titans.html", "Mystere - Action - Gore - Guerre"))
 list.push(new Manga("Dragon Ball", "Dragon Ball (ドラゴンボール, Doragon Bōru?, litt. Dragon Ball) est une série de mangas créée par Akira Toriyama.", "./asset/dball.jpg", "https://www.nautiljon.com/mangas/dragon+ball.html", "Aventure - Action - Super Pouvoir"))
 list.push(new Manga("Dragon Ball Z", "Dragon Ball (ドラゴンボール, Doragon Bōru?, litt. Dragon Ball) est une série de mangas créée par Akira Toriyama.", "./asset/dbz.jpg", "https://www.nautiljon.com/mangas/dragon+ball.html", "Aventure - Action - Super Pouvoir"))
 list.push(new Manga("Ajin", "Ajin : Semi-humain (亜人, Ajin?) est un seinen manga de Gamon Sakurai.", "./asset/ajin.jpg", "https://www.nautiljon.com/mangas/ajin.html", "Surnaturel - Action - Mystere - Super Pouvoir"))
@@ -202,4 +202,28 @@ function loading(){
         itemCreate(element.name, element.description, element.img, element.wikilink, element.genre)
     })
 }
+
+document.querySelector(".search").addEventListener("click", function(e){
+
+    e.preventDefault()
+
+    let searchbar = document.querySelector(".form")
+    if(searchbar.value != "") {
+        
+        cleancontainer()
+        list.forEach(element => {
+            if(element.name.toUpperCase().includes(searchbar.value.toUpperCase()) || 
+                element.genre.toUpperCase().includes(searchbar.value.toUpperCase()) ||
+                element.description.toUpperCase().includes(searchbar.value.toUpperCase())){
+                itemCreate(element.name, element.description, element.img, element.wikilink, element.genre)
+            }
+
+        })
+
+
+    }
+    
+    
+
+})
 
