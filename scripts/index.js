@@ -217,13 +217,7 @@ document.querySelector(".search").addEventListener("click", function(e){
                 element.description.toUpperCase().includes(searchbar.value.toUpperCase())){
                 itemCreate(element.name, element.description, element.img, element.wikilink, element.genre)
             }
-
         })
-
-
     }
-    
-    
-
 })
 
