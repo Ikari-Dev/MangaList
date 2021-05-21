@@ -7,6 +7,9 @@ html
     height: 100%
     width: 100%
 
+body
+  position: relative
+
 .container
     display: flex
     flex-direction: row
@@ -140,6 +143,25 @@ html
         padding: 7px
         width: 100%
         text-transform: uppercase
+
+
+.up
+  position: fixed
+  right: 0
+  bottom: 0
+  border: none
+  padding: 2rem
+  border-radius: 50%
+  text-decoration: none
+  cursor: pointer
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1)
+  z-index: 10
+  margin-right: .5rem
+  margin-bottom: .5rem
+  font-weight: bold
+
+    
+  
 
 @media screen and ( max-width: 1000px )
     .card 
