@@ -1,0 +1,993 @@
+{
+    "manga" : [
+        
+        {
+            "name" : "One piece",
+            "description" : "One Piece est une série de mangas shōnen créée par Eiichirō Oda.",
+            "img" :"./asset/op.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/one+piece.html",
+            "genre":"Pirate - Action - Super Pouvoir"
+        },
+        {
+            "name" : "Bleach",
+            "description" : "Bleach (BLEACH, ブリーチ, Burīchi) est un shōnen manga écrit et illustré par Tite Kubo.",
+            "img" :"./asset/bleach.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/bleach.html",
+            "genre":"Shinigami - Surnaturel - Action"
+        },
+        {
+            "name" : "Naruto",
+            "description" : "Naruto (ナルト) est un shōnen manga écrit et dessiné par Masashi Kishimoto.",
+            "img" :"./asset/naruto.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/naruto.html",
+            "genre":"Ninja - Comedie"
+        },
+        {
+            "name" : "Red eyes Sword",
+            "description" : "Red Eyes Sword: Akame ga Kill! (アカメが斬る!, Akame ga Kiru!?, littéralement Red Eye Killer ou Akame Slashes!) est une série de mangas écrite par Takahiro et illustrée par Tetsuya Tashiro.",
+            "img" :"./asset/akame.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/red+eyes+sword+-+akame+ga+kill+!.htm",
+            "genre":"Dark Fantasy - Drame"
+        },
+        {
+            "name" : "Red eyes Sword zero",
+            "description" : "Red Eyes Sword: Akame ga Kill! zero (アカメが斬る!, Akame ga Kiru!?, littéralement Red Eye Killer ou Akame Slashes!) est une série de mangas écrite par Takahiro et illustrée par Tetsuya Tashiro.",
+            "img" :"./asset/akamezero.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/red+eyes+sword+-+akame+ga+kill+!+zero.html",
+            "genre":"Dark Fantasy - Drame"
+        },
+        {
+            "name" : "Blame",
+            "description" : "BLAME! (ブラム!, Buramu!?) est une série de seinen manga cyberpunk écrit et dessiné par Tsutomu Nihei.",
+            "img" :"./asset/blame.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/blame!.html",
+            "genre":"Dark Science-Fiction - Cyberpunk - Guerre - Mecha - Cyborg"
+        },
+        {
+            "name" : "Attaque des titans",
+            "description" : "Shingeki no Kyojin (進撃の巨人) est un manga écrit et dessiné par Isayama Hajime.",
+            "img" :"./asset/snk.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/l-attaque+des+titans.html",
+            "genre":"Mystere - Action - Gore - Guerre"
+        },
+        {
+            "name" : "Dragon Ball",
+            "description" : "Dragon Ball (ドラゴンボール, Doragon Bōru?, litt. Dragon Ball) est une série de mangas créée par Akira Toriyama.",
+            "img" :"./asset/dball.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/dragon+ball.html",
+            "genre":"Aventure - Action - Super Pouvoir"
+        },
+        {
+            "name" : "Dragon Ball Z",
+            "description" : "Dragon Ball (ドラゴンボール, Doragon Bōru?, litt. Dragon Ball) est une série de mangas créée par Akira Toriyama.",
+            "img" :"./asset/dbz.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/dragon+ball.html",
+            "genre":"Aventure - Action - Super Pouvoir"
+        },
+        {
+            "name" : "Ajin",
+            "description" : "Ajin : Semi-humain (亜人, Ajin?) est un seinen manga de Gamon Sakurai.",
+            "img" :"./asset/ajin.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/ajin.html",
+            "genre":"Surnaturel - Action - Mystere - Super Pouvoir"
+        },
+        {
+            "name" : "Tokyo Ghoul",
+            "description" : "Tokyo Ghoul (東京喰種トーキヨーグール, Tōkyō Gūru?) est un seinen manga de Sui Ishida.",
+            "img" :"./asset/tg.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/tokyo+ghoul.html",
+            "genre":"Surnaturel - Horreur - Thriller - Gore - Drame"
+        },
+        {
+            "name" : "Tokyo Ghoul re",
+            "description" : "Tokyo Ghoul re (東京喰種トーキヨーグール, Tōkyō Gūru?) est un seinen manga de Sui Ishida.",
+            "img" :"./asset/tgre.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/tokyo+ghoul-re.html",
+            "genre":"Surnaturel - Horreur - Thriller - Gore - Drame"
+        },
+        {
+            "name" : "Radiant",
+            "description" : "Radiant est un manga français créé par Tony Valenteo.",
+            "img" :"./asset/radiant.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/radiant.html",
+            "genre":"Sorcier - Fantasy - Comte - Action"
+        },
+        {
+            "name" : "Alice in Borderland",
+            "description" : "Alice in Borderland (今際の国のアリス, Imawa no kuni no Arisu?) est un shōnen manga d'Haro Asō.",
+            "img" :"./asset/AiB.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/alice+in+borderland.html",
+            "genre":"Game - Survival - Drame - Romance - Surnaturel - Mystere"
+        },
+        {
+            "name" : "Promised Neverland",
+            "description" : "The Promised Neverland (約束のネバーランド, Yakusoku no Nebārando?) est un shōnen manga écrit par Kaiu Shirai et dessiné par Posuka Demizu.",
+            "img" :"./asset/Pn.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/the+promised+neverland.html",
+            "genre":"Psychologique - Mystere - Surnaturel - Thriller"
+        },
+        {
+            "name" : "Psyren",
+            "description" : "Psyren (PSYЯEN -サイレン-, Sairen?) est un manga écrit et dessiné par Toshiaki Iwashiro.",
+            "img" :"./asset/psyren.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/psyren.html",
+            "genre":"Survival - Super Pouvoir - Mystere"
+        },
+        {
+            "name" : "Gunnm",
+            "description" : "Gunnm (銃夢, Ganmu?, littéralement « rêve d'une arme »)note 1 est une série de seinen manga de Yukito Kishiro",
+            "img" :"./asset/gunnm.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/gunnm.html",
+            "genre":"Science-Fiction - Post Apo - Cyborg"
+        },
+        {
+            "name" : "Gunnm: Last Order",
+            "description" : "Gunnm Last Order (銃夢Last Order, Ganmu Rasuto Ōdā?) est une série de seinen manga de Yukito Kishiro.",
+            "img" :"./asset/gunnmLO.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/gunnm+-+last+order.html",
+            "genre":"Science-Fiction - Post Apo - Cyborg"
+        },
+        {
+            "name" : "Gunnm: Mars Chronicles",
+            "description" : "Gunnm Mars Chronicle (銃夢火星戦記, Gunnm: Kasei senki?) est un seinen manga écrit et dessiné par Yukito Kishiro.",
+            "img" :"./asset/gunnmM.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/gunnm+-+mars+chronicle.html",
+            "genre":"Science-Fiction - Post Apo - Cyborg"
+        },
+        {
+            "name" : "Solo leveling",
+            "description" : "Solo Leveling (hangeul : 나 혼자만 레벨업, RR : Na honjaman lebel-eob) est une série de romans sud-coréens écrite par Chugongi.",
+            "img" :"./asset/sololeveling.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/solo+leveling.html",
+            "genre":"Fantasy - Guerre - Surnaturel - Isekai"
+        },
+        {
+            "name" : "TODAG",
+            "description" : "Tales of Demons and Gods, abrégée en TODAG, et connue en Chine sous le titre Yao Shen Ji (妖神记), est une série de webnovel écrite par Mad Snail.",
+            "img" :"./asset/todag.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/tales+of+demons+and+gods.html",
+            "genre":"Aventure - Comedie - Fantasy - Harem - Art-Martiaux - Culture"
+        },
+        {
+            "name" : "Biomega",
+            "description" : "Biomega (バイオメガ, Baiomega?) est un seinen manga de Tsutomu Nihei.",
+            "img" :"./asset/biomega.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/biomega.html",
+            "genre":"Dark Science-Fiction - Post-apocalyptique - Zombies"
+        },
+        {
+            "name" : "Berserk",
+            "description" : "Berserk (ベルセルク, Beruseruku?) est un manga de dark fantasy de Kentaro Miura.",
+            "img" :"./asset/berserk.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/berserk.html",
+            "genre":"Dark Fantasy - Gore - Horreur - Drame - Psychologique"
+        },
+        {
+            "name" : "Knights of Sidonia",
+            "description" : "Knights of Sidonia (シドニアの騎士, Shidonia no Kishi?) est un seinen manga écrit et dessiné par Tsutomu Nihei.",
+            "img" :"./asset/kos.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/knights+of+sidonia.html",
+            "genre":"Post Apo - Surnaturel - Dark Science-Fiction - Mecha - Espace"
+        },
+        {
+            "name" : "Nausicaä",
+            "description" : "Nausicaä de la Vallée du Vent (風の谷のナウシカ, Kaze no tani no Naushika?) est un manga japonais de Hayao Miyazaki.",
+            "img" :"./asset/nausicaa.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/nausicaä+de+la+vallée+du+vent.html",
+            "genre":"Animaux - Guerre - Nature - Nostalgie - Post-apocalyptique"
+        },
+        {
+            "name" : "Goblin Slayer",
+            "description" : "Goblin Slayer (ゴブリンスレイヤー, Goburin Sureiyā?), abrégée en GobuSure (ゴブスレ?)1, est une série de light novel japonais écrite par Kumo Kagyū et illustrée par Noboru Kannatsuki.",
+            "img" :"./asset/GSlayer.jpg",
+            "wikilink" :"https://www.nautiljon.com/light_novels/goblin+slayer.html",
+            "genre":"Dark Fantasy - Gore - Ecchi"
+        },
+        {
+            "name" : "My Hero Academia",
+            "description" : "My Hero Academia (僕のヒーローアカデミア, Boku no Hīrō Akademia?) est un shōnen manga écrit et dessiné par Kōhei Horikoshi.",
+            "img" :"./asset/mha.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/my+hero+academia.html",
+            "genre":"School life - SUper Pouvoir - Heroic"
+        },
+        {
+            "name" : "Green World Z",
+            "description" : "Green World Z est un manga de Yûsuke Ôsawa.",
+            "img" :"./asset/GWZ.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/green+worldz.html",
+            "genre":"Post Apo - Survival - Surnaturel"
+        },
+        {
+            "name" : "NOiSE",
+            "description" : "NOiSE (ノイズ, Noizu?) est un manga créé par Tsutomu Nihei.",
+            "img" :"./asset/noise.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/noise+(nihei+tsutomu).html",
+            "genre":"Action - Fantastique - Dark Science-fiction"
+        },
+        {
+            "name" : "Abara",
+            "description" : "Abara (アバラ?) est un manga en 2 volumes de Tsutomu Nihei.",
+            "img" :"./asset/abara.png",
+            "wikilink" :"https://www.nautiljon.com/mangas/abara.html",
+            "genre":"Action - Fantastique - Dark Science-fictio"
+        },
+        {
+            "name" : "Aposimz",
+            "description" : "Aposimz (stylisé comme APOSIMZ) (japonais: 人形 の 国, Hepburn: Ningyō no Kuni) est une série de mangas japonais écrite et illustrée par Tsutomu Nihei.",
+            "img" :"./asset/aposimz.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/aposimz+-+la+planète+des+marionnettes.htm",
+            "genre":"Drame - Mature - Science-fiction - Cyborg - Post Apo"
+        },
+        {
+            "name" : "Fairy Tail",
+            "description" : "Fairy Tail (フェアリーテイル, Fearī Teiru?, littéralement « Queue de fée ») est un shōnen manga écrit et dessiné par Hiro Mashima.",
+            "img" :"./asset/FT.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/fairy+tail.html",
+            "genre":"Amitié(Pouvoir) - Action - Aventure - Comédie - Ecchi - Fantasy"
+        },
+        {
+            "name" : "Eden Zero",
+            "description" : "Edens Zero (エデンズゼロ, Edenzu Zero?) est un shōnen manga écrit et dessiné par Hiro Mashima.",
+            "img" :"./asset/edenzero.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/edens+zero.html",
+            "genre":"Comédie - Drame - Fantasy - Science-fiction - Espace"
+        },
+        {
+            "name" : "Green Mechanic",
+            "description" : "Green Mechanic4 (Ki-oon) de Yami Shina.",
+            "img" :"./asset/greenM.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/green+mechanic.html",
+            "genre":"Aventure - Fantastique - Science-fiction - Monstre"
+        },
+        {
+            "name" : "Seven deadly Sin",
+            "description" : "Seven Deadly Sins (七つの大罪, Nanatsu no taizai?, litt. « Sept péchés capitaux ») est un shōnen manga écrit et dessiné par Nakaba Suzuki.",
+            "img" :"./asset/seven.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/seven+deadly+sins.html",
+            "genre":"Action - Aventure - Comédie - Fantastique - Romance"
+        },
+        {
+            "name" : "L'Attaque des Titans - Before the Fall",
+            "description" : "L'Attaque des Titans - Before the Fall (進撃の巨人 Before the fall) est un shōnen manga écrit par Suzukaze Ryo et dessiné par Shiki Satoshi (origine: Isayama Hajime).",
+            "img" :"./asset/snkbf.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/l-attaque+des+titans+-+before+the+fall.html",
+            "genre":"Mystere - Action - Gore - Guerre"
+        },
+        {
+            "name" : "L'Attaque des Titans - Lost Girls",
+            "description" : "L'Attaque des Titans - Lost Girls (進撃の巨人 LOST GIRLS) est un shōnen manga écrit par Seko Hiroshi et dessiné par Fuji Ryosuke (origine: Isayama Hajime)",
+            "img" :"./asset/snklg.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/l-attaque+des+titans+-+lost+girls.html",
+            "genre":"Mystere - Action - Gore - Guerre"
+        },
+        {
+            "name" : "Sword Art Online",
+            "description" : "Sword Art Online (ソードアート・オンライン, Sōdo Āto Onrain?) est un light novel écrit par Reki Kawahara",
+            "img" :"./asset/sao.jpg",
+            "wikilink" :"https://www.nautiljon.com/light_novels/sword+art+online.html",
+            "genre":"Action - Drame - Isekai - Romance - Science-fiction"
+        },
+        {
+            "name" : "Accel World",
+            "description" : "Accel World (アクセル・ワールド, Akuseru Wārudo?) est un light novel écrit par Reki Kawahara et illustré par HiMA.",
+            "img" :"./asset/accel.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/accel+world.html",
+            "genre":"Action - Romance - School Life - Science-fiction"
+        },
+        {
+            "name" : "Darwin's Game",
+            "description" : "Darwin's Game (ダーウィンズゲーム, Dāwinzugēmu?, litt. « Le Jeu de Darwin ») est un shōnen manga de FLIPFLOPs (duo composé de Shu Miyama pour le scénario et de Yuki Takahata pour le dessin).",
+            "img" :"./asset/darwin.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/darwin-s+game.html",
+            "genre":"Survival - Surnaturel - Drame - Romance"
+        },
+        {
+            "name" : "Btooom",
+            "description" : "Btooom! (ブトゥーム!, Butūmu!), stylisé BTOOOM!, est un manga écrit et dessiné par Junya Inoue.",
+            "img" :"./asset/btoom.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/btooom!.html",
+            "genre":"Survival - Video-Game"
+        },
+        {
+            "name" : "Dead Tube",
+            "description" : "Dead Tube est un seinen manga écrit par Mikoto Yamaguchi et dessiné par Touta Kitakawa.",
+            "img" :"./asset/deadT.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/dead+tube.html",
+            "genre":"Survival - Mystere"
+        },
+        {
+            "name" : "DeadMan Wonderland",
+            "description" : "Deadman Wonderland (デッドマンワンダーランド, Deddoman Wandārando?) est un shōnen manga écrit par Jinsei Kataoka et illustré par Kazuma Kondou.",
+            "img" :"./asset/deadman.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/deadman+wonderland.html",
+            "genre":"Science-fiction - Surnaturel - Survival - Game - Horreur"
+        },
+        {
+            "name" : "Doubt",
+            "description" : "Doubt (-ダウト-, Dauto?), également appelé Rabbit Doubt (ラビット・ダウト, Rabitto Dauto?), est un shōnen manga écrit et dessiné par Yoshiki Tonogai",
+            "img" :"./asset/doupt.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/doubt.html",
+            "genre":"Survival - Gore - Mystere - Thriller"
+        },
+        {
+            "name" : "Gantz",
+            "description" : "Gantz (ガンツ, Gantsu?) est un seinen manga écrit et dessiné par Hiroya Oku.",
+            "img" :"./asset/gantz.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/gantz.html",
+            "genre":"Survival - Surnaturel - Mystere"
+        },
+        {
+            "name" : "Ikigami",
+            "description" : "Ikigami, préavis de mort (イキガミ?) est un manga écrit et dessiné par Motorō Mase.",
+            "img" :"./asset/ikigami.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/ikigami.html",
+            "genre":"Slice of life - Psychologique - Drame"
+        },
+        {
+            "name" : "Jeux d'enfants",
+            "description" : "Jeux d'enfants (神さまの言うとおり, Kamisama no Iutoori?, littéralement «Comme vous l'a dit Dieu») est un shōnen manga scénarisé par Muneyuki Kaneshiro et dessiné par Akeji Fujimura.",
+            "img" :"./asset/kidgame.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/jeux+d-enfants.html",
+            "genre":"Game - Survival - Gore - Mystere"
+        },
+        {
+            "name" : "Judge",
+            "description" : "Judge (ジャッジ?) est un shōnen manga thriller et gore écrit et dessiné par Yoshiki Tonogai.",
+            "img" :"./asset/judge.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/judge+(tonogai+yoshiki).html",
+            "genre":"Survival - Horreur - Mystere - Gore"
+        },
+        {
+            "name" : "King's Game",
+            "description" : "King's Game (王様ゲーム, Ōsama Gēmu?) est un manga japonais de Nobuaki Kanazawa.",
+            "img" :"./asset/KG.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/king-s+game.html",
+            "genre":"Survival - Horreur - Mystère - School Life - Surnaturel - Thriller"
+        },
+        {
+            "name" : "King's Game Extreme",
+            "description" : "King's Game Extreme (王様ゲーム 終極, Ōsama Gēmu Shūkyoku?), dessinée cette fois-ci par Renji Kuriyama.",
+            "img" :"./asset/KGE.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/king-s+game+-+extreme.html",
+            "genre":"Survival - Horreur - Mystère - School Life - Surnaturel - Thriller"
+        },
+        {
+            "name" : "King's Game Origin",
+            "description" : "King's Game Origin (王様ゲーム 起源, Ōsama Gēmu Kigen?, littéralement « Les Origines du King's Game ») et dessinée par J-Ta Yamada.",
+            "img" :"./asset/KGO.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/king-s+game+-+origin.html",
+            "genre":"Survival - Horreur - Mystère - School Life - Surnaturel - Thriller"
+        },
+        {
+            "name" : "King's Game Spiral",
+            "description" : "King's Game Spiral (王様ゲーム 臨場, Ōsama Gēmu Rinjō?) et dessinée à nouveau par Renji Kuriyama.",
+            "img" :"./asset/KGS.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/king-s+game+-+spiral.html",
+            "genre":"Survival - Horreur - Mystère - School Life - Surnaturel - Thriller"
+        },
+        {
+            "name" : "Liar Game",
+            "description" : "Liar Game (ライアーゲーム, Raiā Gēmu?) est un manga de Shinobu Kaitan.",
+            "img" :"./asset/liarGame.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/liar+game.html",
+            "genre":"Survival - Mystere"
+        },
+        {
+            "name" : "Mirai Nikki",
+            "description" : "Mirai Nikki (未来日記?, litt. « journal du futur ») est un manga écrit et dessiné par Sakae Esuno.",
+            "img" :"./asset/mirai.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/mirai+nikki+-+le+journal+du+futur.html",
+            "genre":"Thriller - Surnaturel - Survival - Romance"
+        },
+        {
+            "name" : "Real Account",
+            "description" : "Real Account (japonais リ ア ル ア カ ウ ン ト) est une série de mangas de l'auteur Okushō et de l'illustrateur Shizumu Watanabe.",
+            "img" :"./asset/real.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/real+account.html",
+            "genre":"Survival - Surnaturel"
+        },
+        {
+            "name" : "Kiseijuu",
+            "description" : "Kiseijuu (寄生獣, litt. « bêtes parasites ») est un manga seinen de Hitoshi Iwaaki.",
+            "img" :"./asset/parasyte.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/parasite.html",
+            "genre":"Action - Horreur - Science-fiction - Gore"
+        },
+        {
+            "name" : "Kingdom",
+            "description" : "Kingdom (キングダム, Kingudamu) est un manga écrit et dessiné par Yasuhisa Hara (原泰久, Hara Yasuhisa).",
+            "img" :"./asset/kingdom.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/kingdom.html",
+            "genre":"Historique - Bataille"
+        },
+        {
+            "name" : "Secret",
+            "description" : "Secret (シークレット, Shīkuretto?) est un shōnen manga écrit et dessiné par Yoshiki Tonogai.",
+            "img" :"./asset/secret.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/secret+(tonogai+yoshiki).html",
+            "genre":"Survival - Horreur - Mystere"
+        },
+        {
+            "name" : "Death Note",
+            "description" : "Death Note (デスノート, Desu Nōto?, littéralement Cahier de la Mort) est un shōnen manga écrit par Tsugumi Ōba et dessiné par Takeshi Obata.",
+            "img" :"./asset/DNote.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/death+note.html",
+            "genre":"Drame - Mystère - Psychologique - Surnaturel - Shinigami"
+        },
+        {
+            "name" : "Ghost in the Shell",
+            "description" : "Ghost in the Shell (攻殻機動隊, Kōkaku kidōtai?, littéralement « policiers anti-émeute en carapaces offensives »), parfois abrégé GITS, est un manga de Masamune Shirow.",
+            "img" :"./asset/GiS.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/ghost+in+the+shell.html",
+            "genre":"Psychologique - Cyberpunk - Mecha - Cyborg"
+        },
+        {
+            "name" : "Sky High Survival",
+            "description" : "Sky High Survival (天空侵犯, Tenkū shinpan?) est un manga de type seinen écrit par Tsuina Miura et dessiné par Takahiro Oba.",
+            "img" :"./asset/SHS.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/sky-high+survival.html",
+            "genre":"Survival - Mystere - Surnaturel"
+        },
+        {
+            "name" : "A Silent Voice",
+            "description" : "A Silent Voice (聲の形, Koe no katachi?, litt. « La Forme de la voix ») est un shōnen manga de Yoshitoki Ōima.",
+            "img" :"./asset/silentVoice.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/a+silent+voice.html",
+            "genre":"Drame - Psychologique - Romance - School Life - Slice of Life"
+        },
+        {
+            "name" : "Made in Abyss",
+            "description" : "Made in Abyss (メイドインアビス, Meido in Abisu?) est un manga écrit et dessiné par Akihito Tsukushi.",
+            "img" :"./asset/madein.jpg",
+            "wikilink" :"https://www.nautiljon.com/animes/made+in+abyss.html",
+            "genre":"Action - Mature - Mystere - Aventure"
+        },
+        {
+            "name" : "Akira",
+            "description" : "Akira (アキラ?) est une série de seinen manga de science-fiction écrite et dessinée par Katsuhiro Ōtomo.",
+            "img" :"./asset/akira.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/akira.html",
+            "genre":"Science-Fiction - Post Apo - Super pouvoir - Psychologique"
+        },
+        {
+            "name" : "Last Pretender",
+            "description" : "Last pretender est un manga de Shunji Etô et dessiné par Yoshiyuki Miwa.",
+            "img" :"./asset/lastP.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/last+pretender.html",
+            "genre":"Aventure - Romance - Science-fiction"
+        },
+        {
+            "name" : "One punch man",
+            "description" : "One-Punch Man (ワンパンマン, Wanpanman?) est un manga en ligne écrit et dessiné par ONE.",
+            "img" :"./asset/OPM.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/one-punch+man.html",
+            "genre":"Action - Comédie - Science-fiction - Surnaturel"
+        },
+        {
+            "name" : "Demon Slayer",
+            "description" : "Demon Slayer (litt. « Pourfendeur de démon »), connue au Japon sous le nom Kimetsu no yaiba (鬼き滅めつの刃やいば?, litt. « La Lame tueuse de démons »), est une série de manga écrite et dessinée par Koyoharu Gotōgea.",
+            "img" :"./asset/kimetsu.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/demon+slayer.html",
+            "genre":"Aventure - Démon - Fantastique - Historique - Surnaturel"
+        },
+        {
+            "name" : "Twin star exorcists",
+            "description" : "Twin Star Exorcists (双星の陰陽師, Sōsei no Onmyōji?) est un shōnen manga écrit et dessiné par Yoshiaki Sukeno.",
+            "img" :"./asset/tse.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/twin+star+exorcists.html",
+            "genre":"Action - Comédie - Fantasy - Romance - School Life - Surnaturel"
+        },
+        {
+            "name" : "Blue Exorcist",
+            "description" : "Blue Exorcist (青の祓魔師エクソシスト, Ao no Ekusoshisuto?), connu également sous le nom Ao no Exorcist, est un shōnen manga écrit et illustré par Kazue Kato.",
+            "img" :"./asset/blueE.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/blue+exorcist.html",
+            "genre":"Yokai - Action - Comédie - Drame - Fantastique - School Life - Surnaturel"
+        },
+        {
+            "name" : "Black Torch",
+            "description" : "Black Torch (ブラックトーチ, Burakkutōchi?) est un shōnen manga de Tsuyoshi Takaki.",
+            "img" :"./asset/blacktorch.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/black+torch.html",
+            "genre":"Action - Yokai - Drame - Surnaturel"
+        },
+        {
+            "name" : "Arago",
+            "description" : "Arago - Police Investigator (AR∀GO ～ロンドン市警特殊犯罪捜査官～, Arago - London Shikei Tokushu Hanzai Sôsakan?), typographié AR∀GO, est un manga fantastico-policier écrit et dessiné par Takahiro Arai.",
+            "img" :"./asset/arago.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/arago.html",
+            "genre":"Action - Comédie - Drame - Mystère - Psychologique - Surnaturel - Tragique"
+        },
+        {
+            "name" : "Origin",
+            "description" : "Origin (オ リ ジ ン Orijin?) Un manga écrit et illustré par Boichi.",
+            "img" :"./asset/origin.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/origin.html",
+            "genre":"Action - Drame - Ecchi - Science-fiction - Cyborg"
+        },
+        {
+            "name" : "Seraph of the End",
+            "description" : "Seraph of the End (終わりのセラフ, Owari no Serafu?) est un manga dark fantasy créé par Takaya Kagami et illustré par Yamato Yamamoto avec les storyboards de Daisuke Furuya.",
+            "img" :"./asset/Sofend.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/seraph+of+the+end.html",
+            "genre":"Action - Drame - Fantastique - Mystère - Science-fiction"
+        },
+        {
+            "name" : "Hell's paradise",
+            "description" : "Hell's Paradise: Jigokuraku (japonais: 地獄 楽, Hepburn: Jigokuraku) est une série de mangas japonais écrite et illustrée par Yuji Kaku.",
+            "img" :"./asset/hellP.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/hell-s+paradise.html",
+            "genre":"Ninja/Samurai - Drame - Fantastique - Historique - Surnaturel - Mature"
+        },
+        {
+            "name" : "Dr Stone",
+            "description" : "Dr. Stone (stylisé comme Dr.STONE) est une série de mangas japonais écrite par Riichiro Inagaki et illustrée par l'artiste sud-coréen Boichi.",
+            "img" :"./asset/drstone.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/dr.+stone.html",
+            "genre":"Aventure - Drame - Fantastique - Science-Fiction"
+        },
+        {
+            "name" : "Neon genesis: Evangelion",
+            "description" : "Adaptation en manga a été réalisée par le co-créateur de la série Yoshiyuki Sadamoto.",
+            "img" :"./asset/eva.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/neon+genesis+evangelion.html",
+            "genre":"Drame - Mystère - Psychologique - Science-Fiction - Tragique - Mature"
+        },
+        {
+            "name" : "Boruto",
+            "description" : "Boruto: Naruto Next Generations (BORUTO-ボルト- -NARUTO　NEXT　GENERATIONS-, Boruto: Naruto Nekusuto Jenerēshonzu?) est un manga dérivé faisant suite au manga Naruto, par Ukyō Kodachi et dessiné par Mikio Ikemoto.",
+            "img" :"./asset/boruto.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/boruto+-+naruto+next+generations.html",
+            "genre":"Ninja - Aventure - Comédie - Drame - Surnaturel"
+        },
+        {
+            "name" : "All you need is kill",
+            "description" : "All You Need Is Kill (オール ユー ニード イズ キル?) est un light novel japonais de Hiroshi Sakurazaka illustré par Yoshitoshi ABe.",
+            "img" :"./asset/allY.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/all+you+need+is+kill.html",
+            "genre":"Action - Mature - Mystère - Science-Fiction - Surnaturel"
+        },
+        {
+            "name" : "Claymore",
+            "description" : "Claymore (クレイモア, Kureimoa) est un manga de dark fantasy écrit et illustré par Norihiro Yagi.",
+            "img" :"./asset/claymore.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/claymore.html",
+            "genre":"Aventure - Fantastique - Horreur - Psychologique - Surnaturel"
+        },
+        {
+            "name" : "Code Geass",
+            "description" : "Adaptations en manga par Kadokawa Shoten.",
+            "img" :"./asset/ode.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/code+geass+-+lelouch+of+the+rebellion.html",
+            "genre":"Drame - Psychologique - Romance - Science-Fiction - Surnaturel - Thriller"
+        },
+        {
+            "name" : "Drifters",
+            "description" : "Drifters (ドリフターズ, Dorifutaazu?) est un seinen manga de fantasie de Kōta Hirano.",
+            "img" :"./asset/drifter.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/drifters.html",
+            "genre":"Action - Comédie - Fantasy - Mature - Isekai"
+        },
+        {
+            "name" : "Pochi & kuro",
+            "description" : "Pochi Kuro / ポチクロ manga dessiné par Matsumoto Naoya.",
+            "img" :"./asset/pochi.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/pochi+-+kuro.html",
+            "genre":"Action - Comédie - Romance - Surnaturel"
+        },
+        {
+            "name" : "Assassination Classroom",
+            "description" : "Assassination Classroom (暗殺教室, Ansatsu kyōshitsu?, litt. La Classe d'assassinat) est un manga écrit et dessiné par Yūsei Matsui.",
+            "img" :"./asset/ac.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/assassination+classroom.html",
+            "genre":"Action - Comédie - School Life - Science-Fiction"
+        },
+        {
+            "name" : "Darker than Black",
+            "description" : "Darker than Black (Darker than BLACK -黒の契約者-, Dākā zan Burakku: Kuro no Keiyakusha?) est un manga de Tensai Okamura et Nokiya.",
+            "img" :"./asset/darker.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/darker+than+black+(iwahara+yuji).html",
+            "genre":"Drame - Fantastique - Mystère - Surnaturel"
+        },
+        {
+            "name" : "Blood-C",
+            "description" : "Blood-C est un manga adapté par Ranmaru Kotone.",
+            "img" :"./asset/bloodc.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/blood-c.html",
+            "genre":"Drame - Horreur / Épouvante - Mystère - Psychologique - Surnaturel"
+        },
+        {
+            "name" : "Blood-C: Demonic Moon Light",
+            "description" : "Blood-C est un manga de Ryo Haduki.",
+            "img" :"./asset/bloodcd.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/blood-c+-+izayoi+kitan.html",
+            "genre":"Drame - Horreur / Épouvante - Mystère - Psychologique - Surnaturel"
+        },
+        {
+            "name" : "Dolly Kill Kill",
+            "description" : "Dolly Kill Kill (ド リ ィ ❤ キ ル キ ル) est une série manga du mangaka Kengo Kurando, illustrée par Yūsuke Nomura.",
+            "img" :"./asset/dol.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/dolly+kill+kill.html",
+            "genre":"Action - Drame - Horreur - Surnaturel - Gore"
+        },
+        {
+            "name" : "The new Gate",
+            "description" : "THE NEW GATE (ザ ・ ニ ュ ー ・ ゲ ー ​​ト) est une adaptation manga des romans originaux. Il est écrit par Shinogi Kazanami et illustré par Yoshiyuki Miwa.",
+            "img" :"./asset/thenewgate.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/the+new+gate.html",
+            "genre":"Action - Aventure - Comédie - Isekai - Fantasy - Romance"
+        },
+        {
+            "name" : "Star Martial God Technique",
+            "description" : "Star Martial God Technique est un light novel de Mad Snail.",
+            "img" :"./asset/starmartial.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/star+martial+god+technique.html",
+            "genre":"Aventure - Drame - Fantasy - Romance - Culture"
+        },
+        {
+            "name" : "Battle Through the Heavens",
+            "description" : "Battle Through the Heavens, BTTH ou Dou Po Cang Qiong ecrit par Tian Can Tu Dou.",
+            "img" :"./asset/doupo.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/battle+through+the+heavens.html",
+            "genre":"Action - Aventure - Fantasy - Culture"
+        },
+        {
+            "name" : "Elfen Lied",
+            "description" : "Elfen Lied (エルフェンリート, Erufen rīto?) est un seinen manga de Lynn Okamoto.",
+            "img" :"./asset/elfen.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/elfen+lied.html",
+            "genre":"Drame - Horreur - Romance - Gore"
+        },
+        {
+            "name" : "Gurren Lagann",
+            "description" : "Adaptation en manga par Kazuki Nakashima et Kotaro Mori.",
+            "img" :"./asset/gurren.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/gurren+lagann.html",
+            "genre":"Aventure - comédie dramatique - mecha"
+        },
+        {
+            "name" : "Platinum End",
+            "description" : "Platinum End (プラチナエンド, Purachina Endo?) est un shōnen manga écrit par Tsugumi Ōba et dessiné par Takeshi Obata.",
+            "img" :"./asset/plat.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/platinum+end.html",
+            "genre":"Action - Surnaturel - mystère"
+        },
+        {
+            "name" : "Dream Land",
+            "description" : "Dream Land est un shōnen manga écrit et dessiné par Reno.",
+            "img" :"./asset/dream.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/dream+land.html",
+            "genre":"Action - Surnaturel - mystère - Aventure - Comedie"
+        },
+        {
+            "name" : "Sword Art Online: Progressive",
+            "description" : "Sword Art Online: Progressive(ソードアート・オンライン プログレッシブ) manga par Himura Kiseki et Kawahara Reki.",
+            "img" :"./asset/saoP.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/sword+art+online+-+progressive.html",
+            "genre":"Action - Aventure - Fantasy - Romance - Science-Fiction"
+        },
+        {
+            "name" : "The Legendary Moonlight Sculptor",
+            "description" : "The Legendary Moonlight Sculptor est un light novel coréen de Heesung Nam (남희성).",
+            "img" :"./asset/moon.jpg",
+            "wikilink" :"https://www.nautiljon.com/light_novels/the+legendary+moonlight+sculptor.html",
+            "genre":"Action - Aventure - Fantasy - Romance - Video-Game"
+        },
+        {
+            "name" : "The Breaker",
+            "description" : "The Breaker (브레이커) est un light novel coréen de Jeon Keuk Jin et dessiné par Park Jin Hwan.",
+            "img" :"./asset/break.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/the+breaker.html",
+            "genre":"Arts Martiaux - Comedie"
+        },
+        {
+            "name" : "Blades of the Guardians",
+            "description" : "Blades of the Guardians (镖人) est un manga chinois de Xu Xian Zhe.",
+            "img" :"./asset/blade.jpg",
+            "wikilink" :"https://www.nautiljon.com/animes/biao+ren.html",
+            "genre":"Arts Martiaux - Mature - Assassin - Monstre"
+        },
+        {
+            "name" : "Mob Psycho 100",
+            "description" : "Mob Psycho 100 (モブサイコ100) est un manga japonais de ONE.",
+            "img" :"./asset/mob.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/mob+psycho+100.html",
+            "genre":"Action - Comédie - Psychologique - Romance - Surnaturel - Super Pouvoir - School"
+        },
+        {
+            "name" : "Overlord",
+            "description" : "Overlord (オーバーロード) est un manga japonais de Oshio Satoshi et dessiné par Miyama Fugin.",
+            "img" :"./asset/overlord.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/overlord.html",
+            "genre":"Action - Fantasy - Psychologique - Surnaturel - Isekai"
+        },
+        {
+            "name" : "Erased",
+            "description" : "Erased (Boku Dake ga Inai Machi / 僕だけがいない街) est un manga japonais de Sanbe Kei",
+            "img" :"./asset/erased.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/erased.html",
+            "genre":"Drame - Mature - Mystère - Psychologique - Romance - Slice of Life - Surnaturel - Tragique"
+        },
+        {
+            "name" : "NieR:Automata",
+            "description" : "NieR:Automata (ニーア オートマタ) est un light novel japonais de Yoko Taro et dessiné par Itahana Toshiyuki.",
+            "img" :"./asset/nier.jpg",
+            "wikilink" :"https://www.nautiljon.com/light_novels/nier-automata.html",
+            "genre":"Alien - Guerre - IA - Science-Fiction - Post Apo"
+        },
+        {
+            "name" : "Terra Formars",
+            "description" : "Terra Formars (テラフォーマーズ) est un manga japonais de Sasuga Yu et dessiné par Tachibana Kenichi.",
+            "img" :"./asset/mars.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/terra+formars.html",
+            "genre":"Guerre - Horreur - Science-fiction - Post Apo - Espace - Gore"
+        },
+        {
+            "name" : "Psycho-Pass - Inspecteur Shinya Kôgami",
+            "description" : "Psycho-Pass - Inspecteur Shinya Kôgami (Kanshikan Kougami Shinya / PSYCHO-PASS 監視官 狡噛慎也) est un manga japonais de Goto Midori et dessiné par Sai Natsuo.",
+            "img" :"./asset/psyshyn.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/psycho-pass+-+inspecteur+shinya+kôgami.html",
+            "genre":"Police - Drame - Mystère - Psychologique - Science-fiction - Thriller"
+        },
+        {
+            "name" : "Psycho-Pass - Inspecteur Akane Tsunemori",
+            "description" : "Psycho-Pass - Inspecteur Akane Tsunemori (Kanshikan Tsunemori Akane / 監視官 常守朱) est un manga japonais de Urobuchi Gen et dessiné par Miyoshi Hikaru/Amano Akira.",
+            "img" :"./asset/psyaka.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/psycho-pass+-+inspecteur+akane+tsunemori.html",
+            "genre":"Police - Drame - Mystère - Psychologique - Science-fiction - Thriller"
+        },
+        {
+            "name" : "Sword Art Online - Mother's Rosario",
+            "description" : "Sword Art Online - Mother's Rosario (ソードアート・オンライン マザーズ・ロザリオ) est un manga japonais de Haduki Tsubasa (origine: Kawahara Reki).",
+            "img" :"./asset/saorosa.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/sword+art+online+-+mother-s+rosario.html",
+            "genre":"Action - Aventure - Fantasy - Tragique - Video-Game"
+        },
+        {
+            "name" : "Sword Art Online Alternative - Gun Gale Online",
+            "description" : "Sword Art Online Alternative - Gun Gale Online (ソードアート・オンライン オルタナティブ ガンゲイル・オンライン) est un manga japonais de Sigsawa Keiichi et dessiné par Tamori Tadaji/Kuroboshi Kohaku (origine: Kawahara Reki).",
+            "img" :"./asset/saoalt.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/sword+art+online+alternative+-+gun+gale+online/volume-1,30516.html",
+            "genre":"Action - Aventure - Fantasy - Tragique - Video-Game"
+        },
+        {
+            "name" : "DARLING in the FRANXX",
+            "description" : "DARLING in the FRANXX (ダーリン・イン・ザ・フランキス) est un manga japonais de Code:000 et dessiné par Yabuki Kentaro.",
+            "img" :"./asset/darling.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/darling+in+the+franxx.html",
+            "genre":"Action - Ecchi - Romance - Science-fiction - Slice of life - Mecha"
+        },
+        {
+            "name" : "Fire Force",
+            "description" : "Fire Force (Enn Enn no Shouboutai / 炎炎ノ消防隊) est un manga japonais de Ohkubo Atsushi.",
+            "img" :"./asset/fireforce.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/fire+force.html",
+            "genre":"Action - Comédie - Drame - Science-fiction - Surnaturel"
+        },
+        {
+            "name" : "Fire Punch",
+            "description" : "Fire Punch (ファイアパンチ) est un manga japonais de Fujimoto Tatsuki.",
+            "img" :"./asset/firepunch.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/fire+punch.html",
+            "genre":"Post Apo - Vengeance - Mystere - Surnaturel"
+        },
+        {
+            "name" : "L'Atelier des Sorciers",
+            "description" : "L'Atelier des Sorciers (Tongari Boushi no Atelier / とんがり帽子のアトリエ) est un manga japonais de Shirahama Kamome",
+            "img" :"./asset/atelier.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/l-atelier+des+sorciers.html",
+            "genre":"Fantastique - Slice of Life - Sorcier"
+        },
+        {
+            "name" : "Black Clover",
+            "description" : "Black Clover (ブラッククローバー) est un manga japonais de Tabata Yuuki.",
+            "img" :"./asset/blackclover.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/black+clover.html",
+            "genre":"Action - Aventure - Fantasy - Surnaturel - Sorcier"
+        },
+        {
+            "name" : "The Rising of the Shield Hero",
+            "description" : "The Rising of the Shield Hero (Tate no Yuusha no Nariagari / 盾の勇者の成り上がり) est un manga japonais de Aneko Yusagi et dessiné par Aiya Kyu/Minami Seira.",
+            "img" :"./asset/rising.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/the+rising+of+the+shield+hero.html",
+            "genre":"Action - Aventure - Drame - Fantasy - Isekai"
+        },
+        {
+            "name" : "ID:INVADED #BRAKE-BROKEN",
+            "description" : "ID:INVADED #BRAKE-BROKEN (イド:インヴェイデッド ブレーキ・ブロークン) est un manga japonais de Maijo Otaro et dessiné par Kodama Yuki.",
+            "img" :"./asset/id.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/id-invaded+-brake-broken.html",
+            "genre":"Enquete - Thriller - Mystere - Science-Fiction - Psychologique"
+        },
+        {
+            "name" : "Somali et l'esprit de la forêt",
+            "description" : "Somali et l'esprit de la forêt (Somali to Mori no Kamisama / ソマリと森の神様) est un manga japonais de Gureishi Yako.",
+            "img" :"./asset/somali.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/somali+et+l-esprit+de+la+forêt.html",
+            "genre":"Aventure - Fantastique - Fantasy - Slice of Life - Nature"
+        },
+        {
+            "name" : "Re:Zero - Re:vivre dans un autre monde à partir de zéro",
+            "description" : "Re:Zero - Re:vivre dans un autre monde à partir de zéro (Re:Zero Kara Hajimeru Isekai Seikatsu / Re:ゼロから始める異世界生活) est un manga japonais de Nagatsuki Tappei et dessiné par Otsuka Shinichiro.",
+            "img" :"./asset/resero.jpg",
+            "wikilink" :"https://www.nautiljon.com/light_novels/re-zero+-+re-vivre+dans+un+autre+monde+à+partir+de+zéro.html",
+            "genre":"Comédie - Drame - Fantasy - Romance - Isekai - Assassin - Mystere"
+        },
+        {
+            "name" : "Kyoukai no Kanata",
+            "description" : "Kyoukai no Kanata (境界の彼方) est un manga japonais de Torii Nagomu et dessiné par Kamoi Chise",
+            "img" :"./asset/kanata.jpg",
+            "wikilink" :"https://www.nautiljon.com/light_novels/kyoukai+no+kanata.html",
+            "genre":"Action - Romance - School Life - Surnaturel"
+        },
+        {
+            "name" : "Gantz:E",
+            "description" : "Gantz:E (ガンツ E) est un manga japonais de Oku Hiroya et dessiné par Kagetsu Jin.",
+            "img" :"./asset/gantze.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/gantz-e.html",
+            "genre":"Survival - Surnaturel - Mystere"
+        },
+        {
+            "name" : "Another",
+            "description" : "Another (アナザー) est un manga japonais de Ayatsuji Yukito et dessiné par Kiyohara Hiro",
+            "img" :"./asset/another.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/another.html",
+            "genre":"Drame - Horreur - Mystère - Psychologique - School - Surnaturel"
+        },
+        {
+            "name" : "DanMachi - La Légende des Familias",
+            "description" : "DanMachi - La Légende des Familias (ダンジョンに出会いを求めるのは間違っているだろうか) est un manga japonais de Omori Fujino et dessiné par Kunieda Saika/Yamachi Taisei/Yasuda Suzuhito",
+            "img" :"./asset/dan.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/danmachi+-+la+légende+des+familias.html",
+            "genre":"Harem - Aventure - Drame - Fantasy - Romance"
+        },
+        {
+            "name" : "HUNTER × HUNTER",
+            "description" : "HUNTER × HUNTER (ハンター×ハンター) est un manga japonais de Togashi Yoshihiro.",
+            "img" :"./asset/hunter.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/hunter+×+hunter.html",
+            "genre":"Super Pouvoir - Aventure - Gore - Fantastisque - Assassin"
+        },
+        {
+            "name" : "Jujutsu Kaisen",
+            "description" : "Jujutsu Kaisen (呪術廻戦) est un manga japonais de Akutami Gege.",
+            "img" :"./asset/juju.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/jujutsu+kaisen.html",
+            "genre":"Comedie - Drame - Fantastique - Mystère - School Life - Surnaturel - Yokai"
+        },
+        {
+            "name" : "Bakuman.",
+            "description" : "Bakuman. (バクマン。) est un manga japonais de Ohba Tsugumi et dessiné par Obata Takeshi.",
+            "img" :"./asset/baku.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/bakuman..html",
+            "genre":"Comédie - Slice of Life - Manga"
+        },
+        {
+            "name" : "Pandora Hearts",
+            "description" : "Pandora Hearts (パンドラハーツ) est un manga japonais de Mochizuki Jun",
+            "img" :"./asset/pandora.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/pandora+hearts.html",
+            "genre":"Magie - Action - Drame - Fantasy - Horreur - Mystère - Psychologique - Romance - Surnature"
+        },
+        {
+            "name" : "Les Héros de la Galaxie",
+            "description" : "Les Héros de la Galaxie (Ginga Eiyuu Densetsu / 銀河英雄伝説) est un manga japonais inspiré de l'histoire original de Tanaka Yoshiki et dessiné par Fujisaki Ryu",
+            "img" :"./asset/heroes.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/les+héros+de+la+galaxie.html",
+            "genre":"Espace - Guerre - Drame - Psychologique - Science-fiction - Militaire"
+        },
+        {
+            "name" : "Noblesse",
+            "description" : "Noblesse (노블레스) est un webcomic coréen de Son Jae Ho et dessiné par Lee Gwang Su",
+            "img" :"./asset/nob.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/noblesse.html",
+            "genre":"Vampire - Comédie - Drame - Mystère - School Life - Surnaturel"
+        },
+        {
+            "name" : "Noragami",
+            "description" : "Noragami (ノラガミ) est un manga japonais de Adachitoka.",
+            "img" :"./asset/nora.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/noragami.html",
+            "genre":"Dieux - Aventure - Comédie - Fantastique - Romance - Surnaturel"
+        },
+        {
+            "name" : "Rave",
+            "description" : "Rave (レイヴ) est un manga japonais de Hiro Mashima.",
+            "img" :"./asset/rave.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/rave.html",
+            "genre":"Aventure - Fantastique - Surnaturel - Romance - Magie"
+        },
+        {
+            "name" : "Black Lagoon",
+            "description" : "Black Lagoon (ブラック・ラグーン) est un manga japonais de Hiroe Rei.",
+            "img" :"./asset/lagoon.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/black+lagoon.html",
+            "genre":"Crime - Mafia - Militaire - Pirates"
+        },
+        {
+            "name" : "Blame Gakuen! And So On",
+            "description" : "Blame Gakuen! And So On (ブラム学園!) est un manga japonais de Tsutomu Nihei.",
+            "img" :"./asset/blameand.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/blame+gakuen!+and+so+on.html",
+            "genre":"Cyberpunk - Cyborgs - Mechas - Parodie - Robots"
+        },
+        {
+            "name" : "Ghost in the Shell - Stand Alone Complex",
+            "description" : "Ghost in the Shell - Stand Alone Complex (攻殻機動隊 Stand alone complex) est un manga japonais de Shirow Masamune et dessiné par Kinutani Yu.",
+            "img" :"./asset/stand.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/ghost+in+the+shell+-+stand+alone+complex.html",
+            "genre":"Action - Drame - Psychologique - Cyberpunk - Cyborg - Militaire"
+        },
+        {
+            "name" : "Samurai 8 - La Légende de Hachimaru",
+            "description" : "Samurai 8 - La Légende de Hachimaru (サムライ8 八丸伝) est un manga japonais de Kishimoto Masashi et dessiné par Okubo Akira",
+            "img" :"./asset/samu.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/samurai+8+-+la+légende+de+hachimaru.html",
+            "genre":"Aliens - Cyborgs - Espace - Samouraïs - Science-Fiction"
+        },
+        {
+            "name" : "Amatsuki",
+            "description" : "Amatsuki (あまつき) est un manga japonais de Takayama Shinobu.",
+            "img" :"./asset/ama.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/amatsuki.html",
+            "genre":"Isekai - Démons - Histoire - Médiéval - Yōkai"
+        },
+        {
+            "name" : "Le Roi des Ronces",
+            "description" : "Le Roi des Ronces (Ibara no Ou / いばらの王) est un manga japonais de Iwahara Yuji.",
+            "img" :"./asset/ronce.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/le+roi+des+ronces.html",
+            "genre":"Maladie - Horreur - Psychologique - Tragique"
+        },
+        {
+            "name" : "Kingdom Game",
+            "description" : "Kingdom Game (Oukoku Game / 王国ゲェム) est un manga japonais de Sorase Haruyuki.",
+            "img" :"./asset/kingdomgame.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/kingdom+game.html",
+            "genre":"Horreur - Mystère - Psychologique - Surnaturel"
+        },
+        {
+            "name" : "Jagaaan",
+            "description" : "Jagaaan (Oukoku Game / 王国ゲェム) est un manga japonais de Kaneshiro Muneyuki et dessiné par Nishida Kensuke.",
+            "img" :"./asset/Jagaaan.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/jagaaan.html",
+            "genre":"Monstre - Comédie - Drame - Horreur - Mature - Mystère - Surnaturel"
+        },
+        {
+            "name" : "Alive - Last Evolution",
+            "description" : "Alive - Last Evolution (アライブ　最終進化的少年) est un manga japonais de Kawashima Tadashi et dessiné par Adachitoka.",
+            "img" :"./asset/alive.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/alive+-+last+evolution.html",
+            "genre":"Fantastique - Horreur - Suicide"
+        },
+        {
+            "name" : "Hunt - Le Jeu du Loup-Garou",
+            "description" : "Hunt - Le Jeu du Loup-Garou (Jinroh Game / 人狼ゲーム) est un manga japonais de Kawakami Ryo et dessiné par Koudon.",
+            "img" :"./asset/hunt.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/hunt+-+le+jeu+du+loup-garou.htmll",
+            "genre":"Survival - Horreur - Mature - Mystère - Psychologique"
+        },
+        {
+            "name" : "Gantz:G",
+            "description" : "Gantz:G (ガンツG) est un manga japonais de Oosaki Tomohito et dessiné par Iijika Keita (origine: Oku Hiroya).",
+            "img" :"./asset/GantzG.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/gantz-g.html",
+            "genre":"Alien - Ecchi - Horreur - Mystère - Science-fiction - Tragique"
+        },
+        {
+            "name" : "Rent-a-Girlfriend",
+            "description" : "Kanojo, Okarishimasu (彼女、お借りします) est un manga japonais de Miyajima Reiji.",
+            "img" :"./asset/rent.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/rent-a-girlfriend.htm",
+            "genre":"Comédie - Ecchi - Romance - School Life - Slice of Life"
+        },
+        {
+            "name":"Demon Spirit Seed Manual",
+            "description":"Demon Spirit Seed Manual (Yāojing zhòngzhí shǒucè / 妖精种植手册 / 妖精种植手册动画) est un webcomics chinois de Da Zui.",
+            "img":"./asset/seedM.jpg",
+            "wikilink":"https://www.nautiljon.com/mangas/fairies+cultivation+manual.html",
+            "genre":"Fée - Harem - Comédie - Ecchi - Fantasy"
+        }
+    ]
+    
+}
