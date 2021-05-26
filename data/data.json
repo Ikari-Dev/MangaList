@@ -987,6 +987,13 @@
             "img":"./asset/seedM.jpg",
             "wikilink":"https://www.nautiljon.com/mangas/fairies+cultivation+manual.html",
             "genre":"Fée - Harem - Comédie - Ecchi - Fantasy"
+        },
+        {
+            "name":"Chainsaw Man",
+            "description":"Chainsaw Man (チェンソーマン) est un manga japonais de Fujimoto Tatsuki",
+            "img":"./asset/chain.jpg",
+            "wikilink":"https://www.nautiljon.com/mangas/chainsaw+man.html",
+            "genre":"Demon - Action - Horreur - Mature - Surnaturel"
         }
     ]
     
