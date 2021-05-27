@@ -994,6 +994,13 @@
             "img":"./asset/chain.jpg",
             "wikilink":"https://www.nautiljon.com/mangas/chainsaw+man.html",
             "genre":"Demon - Action - Horreur - Mature - Surnaturel"
+        },
+        {
+            "name":"Dungeon Seeker",
+            "description":"Dungeon Seeker (ダンジョンシーカー) est un manga japonais de Sakamoto 666 et dessiné par Mizu Seijuro",
+            "img":"./asset/seek.jpg",
+            "wikilink":"https://www.nautiljon.com/mangas/dungeon+seeker.html",
+            "genre":"Vengeance - Isekai - Drame - Fantasy - Mature"
         }
     ]
     
