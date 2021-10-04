@@ -1,3 +1,11 @@
+$black: #000
+$gray-light: #eef1f3
+
+
+$bar-size: 5px
+$bar-radius: 60px
+$bar-bg: rgba(0,0,0,0.075)
+  
 *  
     box-sizing: border-box
     margin: 0
@@ -11,7 +19,7 @@ body
   position: relative
 
 .container
-    display: flex
+    display: none
     flex-direction: row
     flex-wrap: wrap
     margin: 5rem
@@ -21,7 +29,7 @@ body
     flex-direction: row
 
 .navbar
-    display: flex
+    display: none
     flex-direction: row
     justify-content: space-between
     padding: 2rem
@@ -146,11 +154,12 @@ body
 
 
 .up
+  display: none
   position: fixed
   right: 0
   bottom: 0
   border: none
-  padding: 2rem
+  padding: 1rem
   border-radius: 50%
   text-decoration: none
   cursor: pointer
@@ -160,8 +169,32 @@ body
   margin-bottom: .5rem
   font-weight: bold
 
-    
-  
+
+.barcontain
+  margin-top: 40vh
+  transition: all .3s ease
+
+.progress
+  margin-left: 20vw
+  margin-bottom: 1vh
+
+.bar
+  height: 3vh
+  width: 0vw
+  background: $black
+  transition: all 3s ease-in
+
+.graph
+  height: 3vh
+  width: 60vw
+  background: grey
+  overflow: hidden
+  margin-bottom: 5vh
+  margin-left: 20vw
+
+.element
+  animation: 3s liear 0s progressfade 
+
 
 @media screen and ( max-width: 1000px )
     .card 
@@ -179,3 +212,12 @@ body
       
         .btn
           width: 30%
+
+
+@keyframes progressfade 
+  from 
+    opacity: 1
+
+  to
+    opacity: 0
+    display: none

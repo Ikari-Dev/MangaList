@@ -45,7 +45,7 @@ function itemCreate(name = "Manga", desc = "Manga dscription", imgurl = "../asse
 
     let currentdiv = document.querySelector(".container")
     currentdiv.appendChild(card)
-
+    
 }
 
 function cleancontainer(){
@@ -66,8 +66,40 @@ document.querySelector(".search").addEventListener("click", function(e){
     }
 })
 
-function parserJson(value = ""){
+function handleEvent(e){
+    var contain = document.querySelector(".barcontain").style.display = "block"
+    var container = document.querySelector(".container").style.display = "none"
+    var container = document.querySelector(".up").style.display = "none"
+    var nav = document.querySelector(".navbar").style.display = "none"
+    document.querySelector(".pb").innerHTML = e.loaded
+    document.querySelector(".bar").style.width = 60 * e.loaded / 100 + "vw"
+    if(e.type = "loadend") {
+        var stamp = setInterval(() => {
+            fadeOut(document.querySelector(".barcontain"))
+
+            var stamp2 = setInterval(() => {
+                //fadeIn(document.querySelector(".container"))
+                //fadeIn(document.querySelector(".navbar"))
+                //fadeIn(document.querySelector(".up"))
+                document.querySelector(".container").style.display = "flex"
+                document.querySelector(".navbar").style.display = "flex"
+                document.querySelector(".up").style.display = "flex"
+
+
+                clearInterval(stamp2)
+            }, 1500)
+            clearInterval(stamp)
+        }, 2000);
+    }
+}
+
+function parserJson(value = ""){ 
     var request = new XMLHttpRequest();
+    let cpt=0;
+    request.addEventListener('loadstart',handleEvent)
+    request.addEventListener('load',handleEvent)
+    request.addEventListener('progress',handleEvent)
+    request.addEventListener('loadend',handleEvent)
     request.open("GET", "./data/data.json")
     request.responseType = 'json'
     request.send();
@@ -80,6 +112,7 @@ function parserJson(value = ""){
                     element.genre.toUpperCase().includes(value.toUpperCase()) ||
                     element.description.toUpperCase().includes(value.toUpperCase())){
                         itemCreate(element.name, element.description, element.img, element.wikilink, element.genre)
+                    
                     }
                 })
             }
@@ -92,5 +125,33 @@ function parserJson(value = ""){
     }
     
     
+    
 }
 
+function fadeOut(element) {
+    var op = 1
+    var timer = setInterval(function () {
+        if (op <= 0.1){
+            clearInterval(timer)
+            element.style.display = "none"
+        }
+        element.style.opacity = op
+        element.style.filter = 'alpha(opacity=' + op * 100 + ")"
+        op -= op * 0.1
+    }, 50)
+}
+
+function fadeIn(element) {
+    var op = 0.1
+    element.style.display = "flex"
+    var timer1 = setInterval(function () {
+        if (op >= 0.9){
+            clearInterval(timer1)
+            console.log("test")
+        }
+        element.style.opacity = op
+        //element.style.filter = "alpha(opacity=" + op * 100 + ")"
+        op += op * 0.1
+        console.log(op)
+    }, 50)
+}

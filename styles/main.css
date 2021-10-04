@@ -15,9 +15,7 @@ body {
 }
 
 .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -38,9 +36,7 @@ body {
 }
 
 .navbar {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -203,11 +199,12 @@ body {
 }
 
 .up {
+  display: none;
   position: fixed;
   right: 0;
   bottom: 0;
   border: none;
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 50%;
   text-decoration: none;
   cursor: pointer;
@@ -217,6 +214,39 @@ body {
   margin-right: .5rem;
   margin-bottom: .5rem;
   font-weight: bold;
+}
+
+.barcontain {
+  margin-top: 40vh;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.progress {
+  margin-left: 20vw;
+  margin-bottom: 1vh;
+}
+
+.bar {
+  height: 3vh;
+  width: 0vw;
+  background: #000;
+  -webkit-transition: all 3s ease-in;
+  transition: all 3s ease-in;
+}
+
+.graph {
+  height: 3vh;
+  width: 60vw;
+  background: grey;
+  overflow: hidden;
+  margin-bottom: 5vh;
+  margin-left: 20vw;
+}
+
+.element {
+  -webkit-animation: 3s liear 0s progressfade;
+          animation: 3s liear 0s progressfade;
 }
 
 @media screen and (max-width: 1000px) {
@@ -240,6 +270,26 @@ body {
   }
   .navbar .d-flex .btn {
     width: 30%;
+  }
+}
+
+@-webkit-keyframes progressfade {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    display: none;
+  }
+}
+
+@keyframes progressfade {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    display: none;
   }
 }
 /*# sourceMappingURL=main.css.map */
