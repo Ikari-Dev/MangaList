@@ -68,11 +68,11 @@ function handleEvent(e){
     var container = document.querySelector(".container").style.display = "none"
     var container = document.querySelector(".up").style.display = "none"
     var nav = document.querySelector(".navbar").style.display = "none"
-    if(e.lengthComputable){
-        document.querySelector(".pb").innerHTML = e.loaded
-        document.querySelector(".bar").style.width = 60 * e.loaded / 100 + "vw"
+    
+    document.querySelector(".pb").innerHTML = e.loaded
+    document.querySelector(".bar").style.width = 60 * e.loaded / 100 + "vw"
        
-    }
+    
     if(e.type = "loadend") {
         var stamp = setInterval(() => {
             fadeOut(document.querySelector(".barcontain"))
