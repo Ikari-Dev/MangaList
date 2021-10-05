@@ -115,6 +115,18 @@ body
     letter-spacing: 0.1em
     text-decoration: none
     padding-top: 10px
+    cursor: pointer
+
+
+.main
+  display: flex
+  flex-direction: column 
+  justify-content: space-evenly
+  max-width: 100%
+  width: 18rem
+  height: 100%
+  border: 1px solid black
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1) 
 
 .card
     display: flex
@@ -122,8 +134,8 @@ body
     justify-content: space-between
     max-width: 20%
     width: 18rem
-    margin: 5px
-    border: 1px solid black
+    height: auto
+    margin: 8px
     transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1)
 
     .card-body
@@ -143,6 +155,7 @@ body
     .divlink
       display: flex
       justify-content: center
+      margin-top: 5px
 
       .btn-link
         text-decoration: none
@@ -194,6 +207,7 @@ body
 
 .element
   animation: 3s liear 0s progressfade 
+
 
 
 @media screen and ( max-width: 1000px )

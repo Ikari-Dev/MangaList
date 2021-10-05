@@ -1008,6 +1008,29 @@
             "img":"./asset/naga.jpg",
             "wikilink":"https://www.nautiljon.com/mangas/arrête+de+me+chauffer,+nagatoro.html",
             "genre":"Comédie - Romance - School Life - Harcèlement"
+        },
+        {
+            "name":"Kaiju No. 8",
+            "description":"Kaiju No. 8 (怪獣８号) est un manga japonais de Matsumoto Naoya",
+            "img":"./asset/kaiju.jpg",
+            "wikilink":"https://www.nautiljon.com/mangas/kaiju+n%C2%B08.html",
+            "genre":"Action - Comédie - Horreur - Science-fiction - Monstre"
+        },
+        {
+            "name":"Why Nobody Remembers My World",
+            "description":"Why Nobody Remembers My World (なぜ僕の世界を誰も覚えていないのか?) est un manga japonais de Sazane Kei et dessiné par Arikan",
+            "img":"./asset/why.jpg",
+            "wikilink":"https://www.nautiljon.com/mangas/why+nobody+remembers+my+world.html",
+            "genre":"Action - Aventure - Ecchi - Fantasy - Romance"
+        }
+    ],
+    "anime" : [
+        {
+            "name" : "One piece",
+            "description" : "One Piece est une série de mangas shōnen créée par Eiichirō Oda.",
+            "img" :"./asset/op.jpg",
+            "wikilink" :"https://www.nautiljon.com/mangas/one+piece.html",
+            "genre":"Pirate - Action - Super Pouvoir"
         }
     ]
     

@@ -4,6 +4,9 @@ function itemCreate(name = "Manga", desc = "Manga dscription", imgurl = "../asse
     let card = document.createElement("div")
     card.classList.add("card")
 
+    let main = document.createElement("div")
+    main.classList.add("main")
+
     let img = document.createElement("img")
     img.setAttribute("src",imgurl)
 
@@ -19,29 +22,23 @@ function itemCreate(name = "Manga", desc = "Manga dscription", imgurl = "../asse
     pdesc.innerText = desc
 
     let gre = document.createElement("p")
-    gre.classList.add("card-text")
-    gre.classList.add("genre")
+    gre.classList.add("card-text","genre")
     gre.innerText = genre
 
     let linkbutton = document.createElement("a")  
-    linkbutton.classList.add("btn")
-    linkbutton.classList.add("btn-link")
-    linkbutton.classList.add("effect01")
+    linkbutton.classList.add("btn", "btn-link", "effect01")
     linkbutton.setAttribute("href", link)
     linkbutton.innerText = "Detail"
    
     let divbot = document.createElement("div")
     divbot.classList.add("divlink")
 
-    cardbody.appendChild(hcinq)
-    cardbody.appendChild(pdesc)
-    
-    cardbody.appendChild(gre)
+    cardbody.append(hcinq, pdesc, gre)
+
     divbot.appendChild(linkbutton)
  
-    card.appendChild(img)
-    card.appendChild(cardbody)
-    card.appendChild(divbot)
+    main.append(img,cardbody)
+    card.append(main, divbot)
 
     let currentdiv = document.querySelector(".container")
     currentdiv.appendChild(card)
@@ -71,8 +68,11 @@ function handleEvent(e){
     var container = document.querySelector(".container").style.display = "none"
     var container = document.querySelector(".up").style.display = "none"
     var nav = document.querySelector(".navbar").style.display = "none"
-    document.querySelector(".pb").innerHTML = e.loaded
-    document.querySelector(".bar").style.width = 60 * e.loaded / 100 + "vw"
+    if(e.lengthComputable){
+        document.querySelector(".pb").innerHTML = e.loaded
+        document.querySelector(".bar").style.width = 60 * e.loaded / 100 + "vw"
+       
+    }
     if(e.type = "loadend") {
         var stamp = setInterval(() => {
             fadeOut(document.querySelector(".barcontain"))
@@ -96,13 +96,13 @@ function handleEvent(e){
 function parserJson(value = ""){ 
     var request = new XMLHttpRequest();
     let cpt=0;
-    request.addEventListener('loadstart',handleEvent)
-    request.addEventListener('load',handleEvent)
-    request.addEventListener('progress',handleEvent)
-    request.addEventListener('loadend',handleEvent)
-    request.open("GET", "./data/data.json")
+    request.addEventListener('loadstart',handleEvent,false)
+    request.addEventListener('load',handleEvent,false)
+    request.addEventListener('progress',handleEvent,false)
+    request.addEventListener('loadend',handleEvent,false)
+    request.open("GET", "./data/data.json", true)
     request.responseType = 'json'
-    request.send();
+    request.send()
     request.onload = function (){
         if(request.readyState === 4 && request.status === 200){
             var data = request.response
@@ -155,3 +155,17 @@ function fadeIn(element) {
         console.log(op)
     }, 50)
 }
+
+let portal = document.querySelector(".navbar-brand")
+portal.addEventListener("click", function(e){
+    e.preventDefault()
+    
+    if(portal.innerHTML.toUpperCase() == "MANGALIST"){
+        portal.innerHTML = "ANIMELIST"
+    }
+    else {
+        portal.innerHTML = "MANGALIST"
+    }
+    
+
+})
