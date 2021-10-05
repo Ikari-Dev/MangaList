@@ -1023,15 +1023,6 @@
             "wikilink":"https://www.nautiljon.com/mangas/why+nobody+remembers+my+world.html",
             "genre":"Action - Aventure - Ecchi - Fantasy - Romance"
         }
-    ],
-    "anime" : [
-        {
-            "name" : "One piece",
-            "description" : "One Piece est une série de mangas shōnen créée par Eiichirō Oda.",
-            "img" :"./asset/op.jpg",
-            "wikilink" :"https://www.nautiljon.com/mangas/one+piece.html",
-            "genre":"Pirate - Action - Super Pouvoir"
-        }
     ]
     
 }
