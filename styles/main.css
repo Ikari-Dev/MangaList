@@ -53,6 +53,10 @@ body {
   padding: .75rem;
 }
 
+.navbar .form:focus {
+  outline: 1px solid black;
+}
+
 .navbar .btn {
   padding: 2px;
   letter-spacing: 0.1em;

@@ -1,0 +1,15 @@
+{
+    "background_color": "black",
+    "description": "Liste de mes Mangas",
+    "display": "fullscreen",
+    "icons": [
+      {
+        "src": "icon/icon192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ],
+    "name": "MangaList",
+    "short_name": "MaL",
+    "start_url": "/MangaList/index.html"
+  }

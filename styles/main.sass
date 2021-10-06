@@ -4,7 +4,6 @@ $form-color: rgba(0, 0, 0, .2)
 
 
 $bar-size: 5px
-$bar-radius: 60px
 $bar-bg: rgba(0,0,0,0.075)
   
 *  
@@ -39,6 +38,10 @@ body
         background: $form-color
         border: 1px solid $form-color
         padding: .75rem 
+
+        &:focus
+          outline: 1px solid black
+
 
     .btn
         padding: 2px

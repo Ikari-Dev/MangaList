@@ -40,14 +40,11 @@ function itemCreate(name = "Manga", desc = "Manga dscription", imgurl = "../asse
     main.append(img,cardbody)
     card.append(main, divbot)
 
-    let currentdiv = document.querySelector(".container")
-    currentdiv.appendChild(card)
-    
+    document.querySelector(".container").appendChild(card)
 }
 
 function cleancontainer(){
-    let container = document.querySelector(".container")
-    container.innerHTML = ""
+    document.querySelector(".container").innerHTML = ""
 }
 
 
@@ -64,10 +61,10 @@ document.querySelector(".search").addEventListener("click", function(e){
 })
 
 function handleEvent(e){
-    var contain = document.querySelector(".barcontain").style.display = "block"
-    var container = document.querySelector(".container").style.display = "none"
-    var container = document.querySelector(".up").style.display = "none"
-    var nav = document.querySelector(".navbar").style.display = "none"
+    document.querySelector(".barcontain").style.display = "block"
+    document.querySelector(".container").style.display = "none"
+    document.querySelector(".up").style.display = "none"
+    document.querySelector(".navbar").style.display = "none"
     
     document.querySelector(".pb").innerHTML = e.loaded
     document.querySelector(".bar").style.width = 60 * e.loaded / 100 + "vw"
