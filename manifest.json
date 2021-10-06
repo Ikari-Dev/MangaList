@@ -1,7 +1,7 @@
 {
     "background_color": "black",
     "description": "Liste de mes Mangas",
-    "display": "standalone",
+    "display": "fullscreen",
     "icons": [
       {
         "src": "icon/icon192.png",
