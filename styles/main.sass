@@ -1,5 +1,6 @@
 $black: #000
 $gray-light: #eef1f3
+$form-color: rgba(0, 0, 0, .2)
 
 
 $bar-size: 5px
@@ -35,23 +36,19 @@ body
     padding: 2rem
 
     .form
-        background: rgba(0, 0, 0, .2)
-        border-radius: .25rem
-        border: none
-        padding: .75rem 1rem
+        background: $form-color
+        border: 1px solid $form-color
+        padding: .75rem 
 
     .btn
         padding: 2px
         letter-spacing: 0.1em
         cursor: pointer
-        font-size: 14px
-        font-weight: 400
-        line-height: 45px
-        max-width: 160px
+        font-size: 1em
         position: relative
         text-decoration: none
         text-transform: uppercase
-        width: 100%
+        width: 3.5vw
 
         &:hover
             text-decoration: none
@@ -114,7 +111,7 @@ body
     text-transform: uppercase
     letter-spacing: 0.1em
     text-decoration: none
-    padding-top: 10px
+    justify-content: center
     cursor: pointer
 
 
