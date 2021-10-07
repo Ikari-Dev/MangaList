@@ -1,3 +1,4 @@
+let mangaList = []
 
 function itemCreate(name = "Manga", desc = "Manga dscription", imgurl = "../asset/default.jpg", link = "#", genre = "Default"){
 
@@ -75,9 +76,6 @@ function handleEvent(e){
             fadeOut(document.querySelector(".barcontain"))
 
             var stamp2 = setInterval(() => {
-                //fadeIn(document.querySelector(".container"))
-                //fadeIn(document.querySelector(".navbar"))
-                //fadeIn(document.querySelector(".up"))
                 document.querySelector(".container").style.display = "flex"
                 document.querySelector(".navbar").style.display = "flex"
                 document.querySelector(".up").style.display = "flex"
@@ -90,40 +88,34 @@ function handleEvent(e){
     }
 }
 
-function parserJson(value = ""){ 
-    var request = new XMLHttpRequest();
-    let cpt=0;
-    request.addEventListener('loadstart',handleEvent,false)
-    request.addEventListener('load',handleEvent,false)
-    request.addEventListener('progress',handleEvent,false)
-    request.addEventListener('loadend',handleEvent,false)
-    request.open("GET", "./data/data.json", true)
+function parserJson2(){
+    let request = new XMLHttpRequest()
+    request.addEventListener('loadstart', handleEvent, false)
+    request.addEventListener('load', handleEvent, false)
+    request.addEventListener('progress', handleEvent, false)
+    request.addEventListener('loadend', handleEvent, false)
+    request.open("GET", "./data/data.json",true)
     request.responseType = 'json'
     request.send()
-    request.onload = function (){
+    request.onload = function(){
         if(request.readyState === 4 && request.status === 200){
             var data = request.response
-            if(value != ""){
-                data.manga.forEach(element => {
-                    if(element.name.toUpperCase().includes(value.toUpperCase()) || 
-                    element.genre.toUpperCase().includes(value.toUpperCase()) ||
-                    element.description.toUpperCase().includes(value.toUpperCase())){
-                        itemCreate(element.name, element.description, element.img, element.wikilink, element.genre)
-                    
-                    }
-                })
-            }
-            else {
-                data.manga.forEach(element => {
-                    itemCreate(element.name, element.description, element.img, element.wikilink, element.genre)
-                })
-            }
+            data.manga.forEach(element => {
+                var object = {}
+                object['name'] = element.name
+                object['description'] = element.description
+                object['img'] = element.img
+                object['wikilink'] = element.wikilink
+                object['genre'] = element.genre
+                mangaList.push(object)
+            })
         }
+        mangaList.forEach(element => {
+            itemCreate(element.name, element.description, element.img, element.wikilink, element.genre)
+        })
     }
-    
-    
-    
 }
+
 
 function fadeOut(element) {
     var op = 1
@@ -163,6 +155,25 @@ portal.addEventListener("click", function(e){
     else {
         portal.innerHTML = "MANGALIST"
     }
+    
+
+})
+
+let updateList = document.querySelector(".form")
+updateList.addEventListener("keyup", function(e){
+    let filter = updateList.value.toUpperCase()
+    let i = 0
+    let cards = document.querySelectorAll(".card")
+    mangaList.forEach(element => {
+        console.log(filter)
+        if(element.name.toUpperCase().indexOf(filter) > -1 || element.description.toUpperCase().indexOf(filter) > -1){
+            cards[i].style.display = "flex"
+
+        } else {
+            cards[i].style.display = "none"
+        }
+        i++
+    })
     
 
 })
