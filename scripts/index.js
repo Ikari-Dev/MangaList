@@ -119,7 +119,7 @@ function parserJson2(){
 
 function fadeOut(element) {
     var op = 1
-    var timer = setInterval(function () {
+    var timer = setInterval(() => {
         if (op <= 0.1){
             clearInterval(timer)
             element.style.display = "none"
@@ -133,7 +133,7 @@ function fadeOut(element) {
 function fadeIn(element) {
     var op = 0.1
     element.style.display = "flex"
-    var timer1 = setInterval(function () {
+    var timer1 = setInterval(() => {
         if (op >= 0.9){
             clearInterval(timer1)
             console.log("test")
@@ -146,7 +146,7 @@ function fadeIn(element) {
 }
 
 let portal = document.querySelector(".navbar-brand")
-portal.addEventListener("click", function(e){
+portal.addEventListener("click", (e) => {
     e.preventDefault()
     
     if(portal.innerHTML.toUpperCase() == "MANGALIST"){
@@ -160,7 +160,8 @@ portal.addEventListener("click", function(e){
 })
 
 let updateList = document.querySelector(".form")
-updateList.addEventListener("keyup", function(e){
+updateList.addEventListener("keyup", (e) => {
+    e.preventDefault()
     let filter = updateList.value.toUpperCase()
     let i = 0
     let cards = document.querySelectorAll(".card")
