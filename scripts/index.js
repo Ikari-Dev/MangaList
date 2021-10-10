@@ -81,6 +81,7 @@ function handleEvent(e){
                 document.querySelector(".up").style.display = "flex"
 
 
+
                 clearInterval(stamp2)
             }, 1500)
             clearInterval(stamp)

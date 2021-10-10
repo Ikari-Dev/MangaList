@@ -20,9 +20,12 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 5rem;
+  margin: 2rem;
 }
 
 .d-flex {
@@ -35,12 +38,20 @@ body {
           flex-direction: row;
 }
 
+.rac {
+  display: none;
+  text-transform: none !important;
+}
+
 .navbar {
   display: none;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -272,6 +283,11 @@ body {
           animation: 3s liear 0s progressfade;
 }
 
+.search {
+  max-width: 50px;
+  min-width: 50px;
+}
+
 @media screen and (max-width: 1000px) {
   .card {
     max-width: 80%;
@@ -284,15 +300,12 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .navbar .d-flex {
     margin-top: 7px;
-  }
-  .navbar .d-flex .form {
-    width: 45%;
-  }
-  .navbar .d-flex .btn {
-    width: 30%;
   }
 }
 
