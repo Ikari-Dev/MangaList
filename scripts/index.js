@@ -11,6 +11,7 @@ function itemCreate(name = "Manga", desc = "Manga dscription", imgurl = "../asse
     let img = document.createElement("img")
     img.setAttribute("src",imgurl)
 
+    /*
     let cardbody = document.createElement("div")
     cardbody.classList.add("card-body")
 
@@ -24,7 +25,7 @@ function itemCreate(name = "Manga", desc = "Manga dscription", imgurl = "../asse
 
     let gre = document.createElement("p")
     gre.classList.add("card-text","genre")
-    gre.innerText = genre
+    gre.innerText = genre*/
 
     let linkbutton = document.createElement("a")  
     linkbutton.classList.add("btn", "btn-link", "effect01")
@@ -34,11 +35,11 @@ function itemCreate(name = "Manga", desc = "Manga dscription", imgurl = "../asse
     let divbot = document.createElement("div")
     divbot.classList.add("divlink")
 
-    cardbody.append(hcinq, pdesc, gre)
+    //cardbody.append(hcinq, pdesc, gre)
 
     divbot.appendChild(linkbutton)
  
-    main.append(img,cardbody)
+    main.append(img/*,cardbody*/)
     card.append(main, divbot)
 
     document.querySelector(".container").appendChild(card)
@@ -49,16 +50,17 @@ function cleancontainer(){
 }
 
 
-document.querySelector(".search").addEventListener("click", function(e){
+document.querySelector(".search").addEventListener("click", (e) => {
 
     e.preventDefault()
-
+/*
     let searchbar = document.querySelector(".form")
     if(searchbar.value != "") {
         
         cleancontainer()
         parserJson(searchbar.value)
     }
+*/
 })
 
 function handleEvent(e){

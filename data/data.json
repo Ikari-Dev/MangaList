@@ -1022,6 +1022,48 @@
             "img":"./asset/why.jpg",
             "wikilink":"https://www.nautiljon.com/mangas/why+nobody+remembers+my+world.html",
             "genre":"Action - Aventure - Ecchi - Fantasy - Romance"
+        },
+        {
+            "name":"Ubel Blatt",
+            "description":"Ubel Blatt (ユーベルブラット) est un manga japonais de Shiono Etoroji",
+            "img":"./asset/ubel.jpg",
+            "wikilink":"https://www.nautiljon.com/mangas/%C3%9Cbel+blatt.html",
+            "genre":"Action - Aventure - Fantasy - Horreur - Mature - Tragique"
+        },
+        {
+            "name":"Dimension W",
+            "description":"Dimension W (ディメンションW) est un manga japonais de Iwahara Yuji",
+            "img":"./asset/dimension.jpg",
+            "wikilink":"https://www.nautiljon.com/mangas/dimension+w.html",
+            "genre":"Action - Science-fiction - Robots"
+        },
+        {
+            "name":"Time Shadows",
+            "description":"Time Shadows (サマータイムレンダ) est un manga japonais de Tanaka Yasuki",
+            "img":"./asset/time.jpg",
+            "wikilink":"https://www.nautiljon.com/mangas/time+shadows.html",
+            "genre":"Drame - Mystère - Romance - Surnaturel"
+        },
+        {
+            "name":"Frieren",
+            "description":"Frieren (サマータイムレンダ) est un manga japonais de Yamada Kanehito et dessiné par Abe Tsukasa",
+            "img":"./asset/frieren.jpg",
+            "wikilink":"https://www.nautiljon.com/mangas/frieren.html",
+            "genre":"Aventure - Drame - Fantasy - Slice of Life - Magie"
+        },
+        {
+            "name":"Sexy Cosplay Doll",
+            "description":"Sexy Cosplay Doll (その着せ替え人形は恋をする) est un manga japonais de Fukuda Shinichi",
+            "img":"./asset/dressup.jpg",
+            "wikilink":"https://www.nautiljon.com/mangas/sexy+cosplay+doll.html",
+            "genre":"Comédie - Ecchi - Romance - School Life - Slice of Life - Cosplay"
+        },
+        {
+            "name":"Leviathan",
+            "description":"Leviathan (リヴァイアサン) est un manga japonais de Kuroi Shiro",
+            "img":"./asset/leviat.jpg",
+            "wikilink":"https://www.nautiljon.com/mangas/leviathan+(kuroi+shiro).html",
+            "genre":"Science-fiction - Espace - Survie"
         }
     ]
     
